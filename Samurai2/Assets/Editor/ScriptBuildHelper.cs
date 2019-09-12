@@ -98,7 +98,6 @@ namespace CustomTool
         {
             _IndentCount = 1;
             Write(SetIndent() + "public class " + className + ": MonoBehaviour" + _LineBrake, true);
-
             WriteCurlyBrackets();
         }
 
@@ -151,7 +150,7 @@ namespace CustomTool
 
         public void WriteUsing()
         {
-            string usingStr = "using system.io;" + _LineBrake;
+            string usingStr = "using System.IO;" + _LineBrake;
             usingStr += "using UnityEngine;" + _LineBrake;
             usingStr += "using System.Collections;" + _LineBrake;
             usingStr += "using System.Collections.Generic; " + _LineBrake;
