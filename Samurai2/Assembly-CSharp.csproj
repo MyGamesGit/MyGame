@@ -51,7 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\a.cs" />
      <Compile Include="Assets\Old\cn.yahoo.asxhl2007\BasicDialog\Scripts\BasicDialog.cs" />
      <Compile Include="Assets\Old\cn.yahoo.asxhl2007\Splash\Script\SplashScreen.cs" />
      <Compile Include="Assets\Old\cn.yahoo.asxhl2007\Splash\Script\The9Settings.cs" />
